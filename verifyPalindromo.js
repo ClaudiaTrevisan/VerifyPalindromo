@@ -6,10 +6,10 @@ const verifyPalindromo = (input) =>{
     const inputInverted = arrayInputReverse.join("")
 
     if(inputInverted === input){
-        return console.log(true)
+        return console.log(`${input} é um palíndromo`)
     }
     
-    return console.log(false)
+    return console.log(`${input} não é um palíndromo`)
 }
 
 verifyPalindromo('anilina')
